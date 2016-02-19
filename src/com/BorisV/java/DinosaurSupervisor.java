@@ -6,7 +6,9 @@ public class DinosaurSupervisor {
         System.out.println("Dinousaur program");
         Dinosaur t_rex = new Dinosaur();
         Dinosaur velociraptor = new Dinosaur();
+        Dinosaur noise = new Dinosaur();
         t_rex.roar();
         velociraptor.roar();
+        noise.roar();
     }
 }
